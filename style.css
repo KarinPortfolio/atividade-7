@@ -1,0 +1,73 @@
+body {
+  background-image: url("hell.png");
+  background-size: cover;
+  font-family: Montserrat;
+  color: #FFF;
+}
+
+nav {
+  margin: 0;
+  display: inline;
+  float: right;
+  padding: 0px;
+  margin: 0;
+}
+
+li {
+  list-style: none;
+  padding-right: 20px;
+  display: inline-block;
+
+}
+
+li:hover {
+  font-weight: bold;
+}
+
+.simbolo {
+  display: flex;
+  justify-content: center;
+  padding-left: 3vw;
+  width: 30%;
+}
+
+span {
+  padding-left: 2vw;
+  padding-top: 7vh;
+}
+
+.witcher {
+  display: flex;
+  justify-content: center;
+}
+
+.witcher img {
+  padding-top: 40vh;
+  padding-bottom: 5vh;
+  width: 20%;
+}
+
+.botao {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+
+.botao img {
+  padding-top: 74vh;
+  padding-bottom: 5vh;
+  height: 7vh;
+}
+
+.kavil {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+
+.kavil img {
+  width: 32%;
+  bottom: 0;
+  position: absolute;
+  top: 15%;
+}
